@@ -1,0 +1,235 @@
+.levelsApp {
+	padding: 50px 20px;
+}
+
+.levelsApp label {
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.levelsApp select {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.AppField {
+	padding: 10px 20px;
+	background: #999;
+	color: #fff;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.fa-plus-square {
+	font-size: 46px;
+	color: green;
+	margin-left: -10px
+}
+
+.fa-minus-square {
+	font-size: 46px;
+	color: red;
+	margin-left: -10px
+}
+
+.draw2d_InputPort {
+	fill: #F7F7F7;
+	stroke: #d7d7d7;
+}
+
+.draw2d_OutputPort {
+	fill: #F7F7F7;
+	stroke: #d7d7d7;
+}
+/* 	#TestDiv{overflow-x: scroll; */
+/*     overflow-y: scroll; ; width:100%; height:100%; padding:10px 0 200px 0; } */
+#connectionLevel h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 10px 0;
+	font-family: Cambria, Georgia, serif;
+}
+
+#instructionDiv h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	background-color: #333;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 10px 0;
+	font-family: Cambria, Georgia, serif;
+}
+
+#instructionDiv .infoInst {
+	padding: 40px 10px;
+	color: #a92727;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#discriptionDiv h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 10px 0;
+	font-family: Cambria, Georgia, serif;
+}
+
+#discriptionDiv p {
+	font-size: 18px;
+	color: #333;
+	padding: 1px 10px;
+	font-family: Cambria, Georgia, serif;
+}
+
+#configDiv {
+	/* 	 margin: 0 12%; */
+	/*     width: 76%; */
+	
+}
+
+#configDiv  h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 10px 0;
+	font-family: Cambria, Georgia, serif;
+}
+
+#configDiv  h6 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	margin: 5px 0;
+	padding: 5px 0 10px 0;
+	border-bottom: 2px solid #333;
+	font-family: Cambria, Georgia, serif;
+}
+
+#configDiv span {
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#configDiv select {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#configDiv .topmargin {
+	margin: 10px 0
+}
+
+#config_LCS {
+	padding: 10px 10px 100px 10px;
+	height:800px;
+	overflow-y: scroll
+}
+#config_TCS{
+	padding: 10px 10px 100px 10px;
+	height:800px;
+	overflow-y: scroll
+}
+#PrblemStatementDiv h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 10px 0;
+	font-family: Cambria, Georgia, serif;
+	text-align: center;
+}
+
+#PrblemStatementDiv p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin: 10px 0;
+	font-family: Cambria, Georgia, serif;
+}
+
+#PrblemStatementDiv label {
+	font-size: 16px;
+	/* font-weight: bold; */
+	color: #575858;
+	margin: 10px 5px;
+	font-family: Cambria, Georgia, serif;
+}
+
+#PrblemStatementDiv select {
+	font-size: 16px;
+	/* font-weight: bold; */
+	color: #575858;
+	font-family: Cambria, Georgia, serif;
+}
+
+#PrblemStatementDiv input[type=radio] {
+	margin-left: 10px
+}
+
+#PS1_combobox, #PS2_combobox, #PS3_combobox, #PS4_combobox {
+	width: 58%;
+	margin: 0 41% 13px 1%;
+}
+
+#configbtn_LCS {
+	padding: 6px 10px;
+	background-color: #666;
+	color: #fff;
+	margin: 5px 10px 0 0;
+	font-size: 15px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#updateconfigbtn_LCS {
+	padding: 6px 10px;
+	background-color: #666;
+	color: #fff;
+	margin: 5px 10px 0 0;
+	font-size: 15px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#chkoutput_LCS {
+	padding: 6px 10px;
+	background-color: #666;
+	color: #fff;
+	margin: 5px 10px 0 0;
+	font-size: 15px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+#changeinRLdiv {font-size: 16px;
+	/* font-weight: bold; */
+	color: #575858;
+	margin: 10px 5px;
+	font-family: Cambria, Georgia, serif;}
+#changeinRL	{padding: 5px;
+    margin-left: 10px;}
+@media screen and (max-width:1200px ) and (min-width:300px) {
+	.fa-minus-square {
+		font-size: 46px;
+		color: red;
+		margin-left: -20px
+	}
+}

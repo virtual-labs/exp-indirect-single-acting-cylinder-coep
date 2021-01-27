@@ -1,13 +1,280 @@
-<!DOCTYPE html>
-<html>
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<title>pneumatic circuit</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/js/jquery.min.js"></script>
+<script src="js/js/bootstrap.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/jquery-ui.css">
+<!-- <link rel="stylesheet" -->
+<!-- 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="css/HighLowSelecter.css" rel="stylesheet"
+	type="text/css">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/homePage.css" rel="stylesheet"
+	type="text/css">
+<link href="css/onlineAssert/css/dataTables.bootstrap.min.css"
+	rel="stylesheet">
+<link href="css/onlineAssert/css/buttons.bootstrap.min.css"
+	rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet"
+	href="css/onlineAssert/css/alertify.min.css" />
+<!-- Default theme -->
+<link rel="stylesheet"
+	href="css/onlineAssert/css/default.min.css" />
+
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/jquery-ui.js"></script>
+<script src="js/lib/jquery.browser.js"></script>
+<script src="js/onlineAssert/js/rangeslider.min.js"></script>
+
+<script type="text/javascript" src="js/lib/raphael.js"></script>
+<script type="text/javascript" src="js/lib/Class.js"></script>
+<script type="text/javascript" src="js/lib/shifty.js"></script>
+<script type="text/javascript" src="js/lib/canvg.js"></script>
+<script type="text/javascript" src="js/lib/jquery.autoresize.js"></script>
+
+<script type="text/javascript"
+	src="js/lib/jquery-touch_punch.js"></script>
+<script type="text/javascript"
+	src="js/lib/pathfinding-browser.min.js"></script>
+<script type="text/javascript" src="js/lib/StackBlur.js"></script>
+
+
+
+<script src="js/dist/draw2d.js"></script>
+
+
+
+<style>
+@media screen and (max-width: 1200px) and (min-width: 700px) { 
+    .palette_node_element {
+    float: left;
+    width: 48%;
+    margin: 1px 1%;
+}
+</style>
+
+
+
+
+<!-- JavaScript -->
+<script src="js/onlineAssert/js/alertify.min.js"></script>
+
+
+<!-- Liabrary JS start -->
+
+<script src="js/src/Application.js"></script>
+<script src="js/src/View.js"></script>
+<script src="js/src/Toolbar.js"></script>
+<script src="js/src/HoverConnection.js"></script>
+
+<script src="js/src/SymbolLiabrary.js"></script>
+
+<script src="js/src/symbols/CylinderSymbol.js"></script>
+<script src="js/src/symbols/DirControlValveSymbols.js"></script>
+<script src="js/src/symbols/CheckValveSymbols.js"></script>
+<script src="js/src/symbols/EnergyTransmission.js"></script>
+<script src="js/src/symbols/ShutOffValveSymbol.js"></script>
+<script src="js/src/symbols/FlowValveSymbols.js"></script>
+<script src="js/src/symbols/PressureControlValve.js"></script>
+<script src="js/src/symbols/ServicingSymbol.js"></script>
+<script src="js/src/symbols/ControlMethodSymbols1.js"></script>
+<script src="js/config/SingleActingCylinder.js"></script>
+<script src="js/config/ConfigurationLevel.js"></script>
+<script src="js/connections/Check_connections.js"></script>
+<script src="js/connections/SAC_Connections.js"></script>
+<script src="js/connections/ConnHint.js"></script>
+
+<!-- Liabrary JS over -->
+
+
+
+
+
+<script type="text/javascript" src="js/lib/canvasjs.min.js"></script>
+
+
+<script src="js/onlineAssert/js/jquery.dataTables.min.js"></script>
+<script src="js/onlineAssert/js/dataTables.bootstrap.min.js"></script>
+<script src="js/onlineAssert/js/dataTables.buttons.min.js"></script>
+<script src="js/onlineAssert/js/buttons.bootstrap.min.js"></script>
+<script src="js/onlineAssert/js/jszip.min.js"></script>
+<script src="js/onlineAssert/js/pdfmake.min.js"></script>
+<script src="js/onlineAssert/js/vfs_fonts.js"></script>
+<script src="js/onlineAssert/js/buttons.html5.min.js"></script>
+<script src="js/onlineAssert/js/buttons.print.min.js"></script>
+
+
+
+
+<script>
+	var type = "direct";
+	var type1 = "reverse";
+</script>
+
+
+
+
+</head>
+
+
+
+<body >
+	<header>
+		<img src='images/COEPlogo.png' />
+		<h1>COLLEGE OF ENGINEERING, PUNE</h1>
+		<h2 id="appName">
+			<i>Develop pneumatic circuit to operate indirect single acting cylinder</i>
+		</h2>
+	</header>
+	
+
+	
+	
+
+<!-- 	 <a href="javascript:SINGLEACTINGCYLINDER.connectionLevel()">check connections</a><br/> -->
+	
+
+
+	<div id="mainDiv" class="container-fluid">
+		<div class="row">
+			<!--  <div
+				class="col-md-8 col-md-offset-2 col-xl-6 col-xl-offset-3 levelsApp">
+				<label class="control-label col-sm-2" for="levels">Select
+					Application</label>
+				<div class="col-sm-10">
+					<select class="form-control" name="App" id="levels">
+						
+					</select>
+				</div>
+				<div id="tramsTInst">
+					<i>
+						<p>In any process industry transmitters, I/P converters,
+							Controllers, and Control valves are termed as "Process Loop
+							Components. While using these components certain steps are
+							required to be carried out. These steps are termed as
+							"Connection/Configuration", "Characterisation", "Calibration",
+							and "fault finding". In each phase the user is supposed to carry
+							out certain tasks as per industry standard. The main unit
+							processes which are predominantly used in industries are
+							Temperature, Level, Pressure, and Flow control System. As per the
+							requirement the you can select the process and follow the steps
+							as described in the "Procedure" section. The details of each step
+							are as follows:</p>
+						<ol
+							style="overflow-y: scroll; height: 400px; padding-bottom: 100px;">
+
+							<li><span>Configure a I/P converters:</span> To configure a
+								I/P converter you need to select type of an I/P converter</li>
+							<li><span>Connection/wiring diagram:</span> From the
+								standard library select the components required for the
+								connection like a power supply, I/P converters module, and an
+								analog input card. Connect them as per standard connection
+								diagram mentioned in theory.</li>
+							<li><span>Characterisation:</span> Once the configuration
+								and wiring diagram is complete change the process variable and
+								observe the output of the I/P converters. Ensure that you have
+								exposed I/P converters to full span as far as possible take
+								maximum readings.</li>
+							<li><span>Calibration:</span> After scrutinising the
+								readings calculate various parameters and calibrate the I/P
+								converters by adjusting "Zero, Span, and Linearity"</li>
+							<li><span>Fault finding:</span> In this phase a fault is
+								introduced and the user needs to identify the fault based on the
+								readings of the I/P converters.</li>
+						</ol>
+					</i>
+				</div>
+			</div>-->
+			<div class="col-md-6 col-sm-12" id="canvasMainDiv">
+				<div class="col-md-12 col-sm-12">
+
+
+
+					<button id="next" class="AppField">Start Test</button>
+				</div>
+				<div class="col-md-12 col-sm-12" style="">
+					<div id="canvas"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div id="TestDiv"></div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+	</div>
+	</div>
+
+
+
+	<div id="myModal" class="modal fade" role="dialog"  style="display:none">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					<!-- Connection Hint Images-->
+					<img id="Dir_SAC" src="images/ConnImg/Dir_SAC.JPG"
+						style="width: 50%; height: 300px; margin:10px 25%; display: none"> 
+						<img id="Dir_sac_iden" src="images/ConnImg/Dir_sac_iden.JPG"
+						style="width: 50%; height: 300px; margin:10px 25%; display: none"> 
+					<img id="Indir_SAC" src="images/ConnImg/Indir_SAC.JPG"
+						style="width: 50%; height: 300px; margin:10px 25%; display: none"> 
+						<img id="Indir_sac_iden" src="images/ConnImg/Indir_sac_iden.JPG"
+						style="width: 50%; height: 300px; margin:10px 25%; display: none"> 
+<!-- 						<img -->
+<!-- 						id="HS_4Input" src="images/ConnImg/HS_4Input.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"> <img -->
+<!-- 						id="LS_2Input" src="images/ConnImg/LS_2Input.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"><img -->
+<!-- 						id="LS_3Input" src="images/ConnImg/LS_3Input.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"><img -->
+<!-- 						id="LS_4Input" src="images/ConnImg/LS_4Input.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"><img -->
+<!-- 						id="Limiter_RL" src="images/ConnImg/Limiter_RL.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"><img -->
+<!-- 						id="Limiter_HL" src="images/ConnImg/Limiter_HL.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"><img -->
+<!-- 						id="Limiter_LL" src="images/ConnImg/Limiter_LL.png" -->
+<!-- 						style="width: 50%; height: 300px; margin:10px 25%; display: none"> -->
+						
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	
+
+
+
 </body>
+
+
+
+
+
+
 </html>
