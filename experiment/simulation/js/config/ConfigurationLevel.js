@@ -6,7 +6,7 @@ configSingleActingCylinder = function(){
 	configDACHtm = '';
 	
 	configDACHtm = '<div id = "configDiv" class="container-fluid">'
-				+'<h4 align="center">Selection of conponent</h4>'
+				+'<h4 align="center">Selection of component</h4>'
 //				+'<h6>In this level select the component for direct single acting cylinder</h6>'
 				+'<div class="row topmargin">'
 				+'<div class="col-sm-3 col-md-3 col-xl-3">'
