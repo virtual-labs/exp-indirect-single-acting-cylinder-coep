@@ -1,1 +1,46 @@
-[{"question":"In pneumatic systems the medium used is","answers":{"a":"Air","b":"Liquid","c":"Hydrogen","d":"Oil"},"correctAnswer":"a"},{"question":"Pneumatic Cylinder can be:","answers":{"a":"Linear actuator","b":"Rotary actuator","c":"Both","d":"None of these"},"correctAnswer":"c"},{"question":"Pneumatic system is part of:","answers":{"a":"Continuous operation","b":"Discrete operation","c":"Batch operation","d":"None of these"},"correctAnswer":"b"},{"question":"Which of the following is not a type of pressure sensing element?","answers":{"a":"Manually","b":"Automatically","c":"None of these","d":"Manually and Automatically"},"correctAnswer":"d"},{"question":"Pneumatic system consists of:","answers":{"a":"Pneumatic cylinder","b":"Direction control valve","c":"FRL unit","d":"All of these"},"correctAnswer":"d"}]
+[{
+	"question": "In pneumatic systems the medium used is",
+	"answers": {
+		"a": "Air",
+		"b": "Liquid",
+		"c": "Hydrogen",
+		"d": "Oil"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Pneumatic Cylinder can be:",
+	"answers": {
+		"a": "Linear actuator",
+		"b": "Rotary actuator",
+		"c": "Both",
+		"d": "None of these"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Pneumatic system is part of:",
+	"answers": {
+		"a": "Continuous operation",
+		"b": "Discrete operation",
+		"c": "Batch operation",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Which of the following is not a type of pressure sensing element?",
+	"answers": {
+		"a": "Manually",
+		"b": "Automatically",
+		"c": "None of these",
+		"d": "Manually and Automatically"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Pneumatic system consists of:",
+	"answers": {
+		"a": "Pneumatic cylinder",
+		"b": "Direction control valve",
+		"c": "FRL unit",
+		"d": "All of these"
+	},
+	"correctAnswer": "d"
+}]
